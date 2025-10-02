@@ -1,0 +1,128 @@
+[
+  {
+    "id": "a-commit",
+    "tier": 1,
+    "desc": "One of my commit sha starts with \"a\".",
+    "body": "- <a href=\"https://github.com/the-ebdm/SSE/commit/a4aee5320d6924f53d7d529a1ecf8d085380aefd\"><strong>a</strong>4aee5320d6924f53d7d529a1ecf8d085380aefd</a>",
+    "image": "https://my-badges.github.io/my-badges/a-commit.png"
+  },
+  {
+    "id": "chore-commit",
+    "tier": 0,
+    "desc": "I did a little housekeeping! 🧹",
+    "body": "Commits:\n\n- <a href=\"https://github.com/the-ebdm/panhandler/commit/4ba2e4ce1a2332bae364b332e6cb16f2c6dfcbfa\">4ba2e4c</a>: chore: enhance deployment process with Helm dependency management\n\n- Add support for skipping Helm dependency updates during deployment\n- Update Makefile to pass additional arguments for deployment commands\n- Ensure consistent handling of environment-specific settings in deploy script",
+    "image": "https://my-badges.github.io/my-badges/chore-commit.png"
+  },
+  {
+    "id": "covid-19",
+    "tier": 0,
+    "desc": "I rolled before Covid-19: Survivor of the Great TP Shortage",
+    "body": "",
+    "image": "https://my-badges.github.io/my-badges/covid-19.png"
+  },
+  {
+    "id": "epic-commit",
+    "tier": 0,
+    "desc": "I made an epic commit with a message over 500 chars.",
+    "body": "Commits:\n\n- <a href=\"https://github.com/the-ebdm/panhandler/commit/08bc6a9e8be44197c6b6b3a5d4075cad7f2385ce\">08bc6a9</a>\n- <a href=\"https://github.com/the-ebdm/panhandler/commit/a4bd1fa4f0227653fe1f67faa645ac9b1b28663f\">a4bd1fa</a>\n- <a href=\"https://github.com/the-ebdm/panhandler/commit/09e8c9d1b119a03f2d2968b48d3877ff04b9ac78\">09e8c9d</a>\n- <a href=\"https://github.com/the-ebdm/panhandler/commit/ce6d1e87e7e9c4a24589000721d0ae8566304b24\">ce6d1e8</a>\n- <a href=\"https://github.com/the-ebdm/panhandler/commit/22fd5a1acd0ab623aa2770f88bfadc52b3c097f6\">22fd5a1</a>\n- <a href=\"https://github.com/the-ebdm/panhandler/commit/4a3c0012756588151828f55fe48af82675634f80\">4a3c001</a>\n- <a href=\"https://github.com/the-ebdm/panhandler/commit/f7e51ade38bfb07396c785390a9f495a65a2c3fb\">f7e51ad</a>\n- <a href=\"https://github.com/the-ebdm/panhandler/commit/f07faba40b43b26c643a95868309d779f7851899\">f07faba</a>\n- <a href=\"https://github.com/the-ebdm/panhandler/commit/2ac5ee8fef61a5ec087a0e29d91fc8b64e41cd7c\">2ac5ee8</a>\n- <a href=\"https://github.com/the-ebdm/panhandler/commit/1b41ee958ce453813036b2d70adced6d2fc84ccc\">1b41ee9</a>\n- <a href=\"https://github.com/the-ebdm/panhandler/commit/747a8a9d546c96a3d136ab8146eb960f27e59a6d\">747a8a9</a>\n- <a href=\"https://github.com/the-ebdm/panhandler/commit/890eaadc2c937aaac3f14408d5b1909bca60ac26\">890eaad</a>\n- <a href=\"https://github.com/the-ebdm/panhandler/commit/550e37356cef4895f1f5d15f9c617cd92b513b57\">550e373</a>\n- <a href=\"https://github.com/the-ebdm/panhandler/commit/f0447a15de36940b81e7fa0ece3cffc2324546c3\">f0447a1</a>\n- <a href=\"https://github.com/the-ebdm/panhandler/commit/0e6504da085833c3be869f548651a7c6a24533de\">0e6504d</a>\n- <a href=\"https://github.com/the-ebdm/panhandler/commit/252e8fe64e397bb92d984d46d9bbc091e0fb3fbf\">252e8fe</a>\n- <a href=\"https://github.com/the-ebdm/panhandler/commit/930ba752bb13fd33e3b4752ad0762c1744a3fe93\">930ba75</a>",
+    "image": "https://my-badges.github.io/my-badges/epic-commit.png"
+  },
+  {
+    "id": "favorite-word",
+    "tier": 0,
+    "desc": "My favorite word is \"add\".",
+    "body": "My favorite commit message words are:\n\n1. add (used 156 times)\n2. update (used 109 times)\n3. added (used 77 times)\n4. create (used 55 times)\n5. updated (used 44 times)",
+    "image": "https://my-badges.github.io/my-badges/favorite-word.png"
+  },
+  {
+    "id": "fix-4",
+    "tier": 3,
+    "desc": "I did 4 sequential fixes.",
+    "body": "Commits:\n\n- <a href=\"https://github.com/the-ebdm/panhandler/commit/ea19a1da3cad005faf8c9ba042a8f53cbd2ceb2c\">ea19a1d</a>: fix: correct module exports to match actual build output\n\n- Change exports from .mjs to .js files (what tsc actually generates)\n- Update module field to point to .js instead of .mjs\n- This fixes 'Cannot find module @panhandler/core' import errors\n- <a href=\"https://github.com/the-ebdm/panhandler/commit/4e28e037a29885475213ec9c277384f725ba72da\">4e28e03</a>: fix: copy node_modules from build stage for proper workspace linking\n\nThe build stage has the complete workspace setup with proper linking,\nwhile the deps stage only had package.json files without linking.\n- <a href=\"https://github.com/the-ebdm/panhandler/commit/011111e0c727bfbad34ba665d04a867e89a27f26\">011111e</a>: fix: resolve workspace dependencies in Docker build\n\n- Remove --production flag to preserve workspace linking\n- Copy workspace configuration (package.json, bunfig.toml) to runtime\n- Ensure @panhandler/core and @panhandler/types can be resolved\n\nThis fixes the 'Cannot find module @panhandler/core' error in containers.\n- <a href=\"https://github.com/the-ebdm/panhandler/commit/e9349ded8328bc94738cdb434c61f076b2a7ac35\">e9349de</a>: fix: resolve GHCR image pull authentication issues\n\n- Update deployment templates to prioritize local imagePullSecrets over global\n- Enhance add-github-secret.sh script to support multiple namespaces\n- Configure local imagePullSecrets for agents and web services\n- Create ghcr-auth secrets in all panhandler environments (dev, staging, prod)\n\nResolves: 401 Unauthorized errors when pulling from ghcr.io\nStatus: Image pulls now working successfully ✅",
+    "image": "https://my-badges.github.io/my-badges/fix-4.png"
+  },
+  {
+    "id": "fix-2",
+    "tier": 1,
+    "desc": "I did 2 sequential fixes.",
+    "body": "Commits:\n\n- <a href=\"https://github.com/the-ebdm/terraform-aws-strapi-module/commit/0f4de5fc9adb22cd280396710c7475b44f47251b\">0f4de5f</a>: Fixed address output\n- <a href=\"https://github.com/the-ebdm/terraform-aws-strapi-module/commit/e4ae3b2ac0c0dcbce1602d4919bf6bf4e1f405f2\">e4ae3b2</a>: Fixed ec2 role",
+    "image": "https://my-badges.github.io/my-badges/fix-2.png"
+  },
+  {
+    "id": "fix-3",
+    "tier": 2,
+    "desc": "I did 3 sequential fixes.",
+    "body": "Commits:\n\n- <a href=\"https://github.com/the-ebdm/terraform-aws-lb-server/commit/12b75457902eac2d6268ba07a0dc894db555c797\">12b7545</a>: Fixed quoting again\n- <a href=\"https://github.com/the-ebdm/terraform-aws-lb-server/commit/8515107c6010b7df7e70f14ef5aafdfa29444eb8\">8515107</a>: Fixed key\n- <a href=\"https://github.com/the-ebdm/terraform-aws-lb-server/commit/f96cbb841f1cd39c04bc9049162739374e94e5ff\">f96cbb8</a>: Fixed quoting",
+    "image": "https://my-badges.github.io/my-badges/fix-3.png"
+  },
+  {
+    "id": "friday-13",
+    "tier": 0,
+    "desc": "I committed on Friday the 13th, One… By One…",
+    "body": "Commits:\n\n- <a href=\"https://github.com/the-ebdm/terraform-integration/commit/770d1f621c91a753c7efb8c0e5dbdd97ea2df433\">770d1f6</a>\n- <a href=\"https://github.com/the-ebdm/terraform-integration/commit/3377d57513c7d49aaf5dd84aefb103711d4607c7\">3377d57</a>\n- <a href=\"https://github.com/the-ebdm/terraform-integration/commit/ee840c0e2e3c40e7a5a1402bfcc5c02fdf0fdfdf\">ee840c0</a>\n- <a href=\"https://github.com/the-ebdm/terraform-integration/commit/811250a1aaba046c6911e2eebc7762cce1178af0\">811250a</a>\n- <a href=\"https://github.com/the-ebdm/terraform-integration/commit/2798e7097dc2975c67a938711926cfcdb36ff37b\">2798e70</a>\n- <a href=\"https://github.com/the-ebdm/terraform-integration/commit/8996e29198523f1aa414add3626ea3b58b6b6641\">8996e29</a>",
+    "image": "https://my-badges.github.io/my-badges/friday-13.png"
+  },
+  {
+    "id": "github-anniversary-5",
+    "tier": 0,
+    "desc": "I joined GitHub 5 years ago.",
+    "body": "",
+    "image": "https://my-badges.github.io/my-badges/github-anniversary-5.png"
+  },
+  {
+    "id": "github-anniversary-10",
+    "tier": 0,
+    "desc": "I joined GitHub 10 years ago.",
+    "body": "",
+    "image": "https://my-badges.github.io/my-badges/github-anniversary-10.png"
+  },
+  {
+    "id": "mass-delete-commit",
+    "tier": 1,
+    "desc": "When I delete code, I delete a lot.",
+    "body": "Commits:\n\n- <a href=\"https://github.com/the-ebdm/hciman/commit/eb977d5eb8e754baddc556b7f7c5845b434a9761\">eb977d5</a>",
+    "image": "https://my-badges.github.io/my-badges/mass-delete-commit.png"
+  },
+  {
+    "id": "mass-delete-commit-10k",
+    "tier": 2,
+    "desc": "When I delete code, I delete a lot.",
+    "body": "Commits:\n\n- <a href=\"https://github.com/the-ebdm/hciman/commit/eb977d5eb8e754baddc556b7f7c5845b434a9761\">eb977d5</a>",
+    "image": "https://my-badges.github.io/my-badges/mass-delete-commit-10k.png"
+  },
+  {
+    "id": "public-keys-5",
+    "tier": 5,
+    "desc": "I have five or more public keys",
+    "body": "",
+    "image": "https://my-badges.github.io/my-badges/public-keys-5.png"
+  },
+  {
+    "id": "this-is-fine",
+    "tier": 0,
+    "desc": "I merged a PR with failing checks",
+    "body": "Pull requests:\n\n- <a href=\"https://github.com/the-ebdm/cloud-router/pull/1\">#1</a>: Add GitHub Actions workflow for automated code review\n- <a href=\"https://github.com/the-ebdm/cloud-router/pull/2\">#2</a>: Phase 1: DNS",
+    "image": "https://my-badges.github.io/my-badges/this-is-fine.png"
+  },
+  {
+    "id": "morning-commits",
+    "tier": 0,
+    "desc": "I commit in the morning.",
+    "body": "Commits:\n\n- <a href=\"https://github.com/the-ebdm/cloud-router/commit/a2ddba034728f80211d1d73532065cb82693150a\">a2ddba0</a>\n- <a href=\"https://github.com/the-ebdm/hack-ai/commit/420b50086a9ba90f027f31fc80de128baad35386\">420b500</a>\n- <a href=\"https://github.com/the-ebdm/hack-ai/commit/dc3e7f23ce1beed7809baf658872bf50adbff291\">dc3e7f2</a>\n- <a href=\"https://github.com/the-ebdm/hack-ai/commit/f266f89ac56428cae56fd2ada4cd948db7c99191\">f266f89</a>\n- <a href=\"https://github.com/the-ebdm/terraform-aws-strapi-module/commit/e1a679cd44c4d30ac896674a0fc590c736d34caa\">e1a679c</a>",
+    "image": "https://my-badges.github.io/my-badges/morning-commits.png"
+  },
+  {
+    "id": "evening-commits",
+    "tier": 0,
+    "desc": "I commit in the evening.",
+    "body": "Commits:\n\n- <a href=\"https://github.com/the-ebdm/panhandler/commit/3edfb0cecf9f4c2c23963b06d989cd5057f72915\">3edfb0c</a>\n- <a href=\"https://github.com/the-ebdm/panhandler/commit/498e4187329ecc0b7c84f41d2f4f3d1f177e52e5\">498e418</a>\n- <a href=\"https://github.com/the-ebdm/panhandler/commit/09e8c9d1b119a03f2d2968b48d3877ff04b9ac78\">09e8c9d</a>\n- <a href=\"https://github.com/the-ebdm/panhandler/commit/a2aa6f129b2f443aa8dc17fc8706018c4163d6bb\">a2aa6f1</a>\n- <a href=\"https://github.com/the-ebdm/panhandler/commit/d7825dfc499d41bc4105c793310a177accb6b7ca\">d7825df</a>\n- <a href=\"https://github.com/the-ebdm/panhandler/commit/fe8d63e52d77b3708e49c3fd5dace0516e09f2fc\">fe8d63e</a>",
+    "image": "https://my-badges.github.io/my-badges/evening-commits.png"
+  },
+  {
+    "id": "midnight-commits",
+    "tier": 0,
+    "desc": "I commit at midnight.",
+    "body": "Commits:\n\n- <a href=\"https://github.com/the-ebdm/SSE/commit/7452eafacd69b7c7a47a8e1942a10e1b96243743\">7452eaf</a>",
+    "image": "https://my-badges.github.io/my-badges/midnight-commits.png"
+  }
+]
